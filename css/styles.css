@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(143, 143, 143);
+}
+.cabecera{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin: 30px 15px;
+    border: none;
+    background-color: #559f9f;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+    color: #e8e8e6;
+}
+h2{
+    border: none;
+    font-family: 'Caprasimo', cursive;
+    font-weight: 100;
+}
+body{
+    background-color: #8bbaeb;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+    padding: 15px;
+    background-color: #8bbaeb;
+    border: none;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2rem;
+    /* height: 100px; */
+    background-color: #7289da;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.calculatorDisplay{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    overflow-x: auto;
+    border-radius: 20px 20px 0 0;
+}
+.calculatorKeypad{
+    display: flex;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.keypadNumber{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    border: none;
+}
+.keypadButton{
+    width: 25%;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+}
+.keypadButton:hover{
+    filter: brightness(80%);
+    transition: 400ms;
+}
+.keypadButton.yellow{
+    background-color: #99aab5;
+}
+.keypadButton.large{
+    width: 50%;
+}
+.keypadButton.dark{
+    background-color: #2c2f33;
+    color: white;
+}
+.bor3{
+    border-radius: 0 0 20px 0;
+}
+.bor4{
+    border-radius: 0 0 0 20px;
+}
